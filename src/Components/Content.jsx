@@ -4,7 +4,7 @@ import BarChart from '../JS/BarChart';
 import AreaChart from '../JS/AreaChart';
 import { UserData } from '../Data';
 
-function Content() {
+function Main() {
 
      // x-x-x Charts x-x-x
      const [userData, setUserData] = useState({
@@ -580,4 +580,4 @@ function Content() {
   )
 }
 
-export default Content;
+export default Main;
